@@ -98,36 +98,36 @@ public class FuelReprocessorRecipes extends AbstractRecipeProvider {
             add(
                     fuelIngredient(List.of("depleted", "plutonium", "lep-239", type), 9),
                     List.of(
-                            isotopeStack(Materials.uranium238, 4), isotopeStack(Materials.plutonium238),
-                            isotopeStack(Materials.plutonium241), isotopeStack(Materials.plutonium242),
-                            dustStack(Materials.molybdenum), dustStack(Materials.caesium_137)
+                            isotopeStack(Materials.plutonium242, 4), isotopeStack(Materials.americium243),
+                            isotopeStack(Materials.americium242), isotopeStack(Materials.curium246),
+                            dustStack(Materials.strontium_90), dustStack(Materials.promethium_147)
                     ), 0.5D
             );
 
             add(
                     fuelIngredient(List.of("depleted", "plutonium", "hep-239", type), 9),
                     List.of(
-                            isotopeStack(Materials.uranium238, 2), isotopeStack(Materials.plutonium238),
-                            isotopeStack(Materials.plutonium241), isotopeStack(Materials.plutonium242),
-                            dustStack(Materials.molybdenum), dustStack(Materials.caesium_137)
+                            isotopeStack(Materials.plutonium241), isotopeStack(Materials.americium243, 4),
+                            isotopeStack(Materials.americium242), isotopeStack(Materials.curium243),
+                            dustStack(Materials.strontium_90), dustStack(Materials.promethium_147)
                     ), 1.5D
             );
 
             add(
                     fuelIngredient(List.of("depleted", "plutonium", "lep-241", type), 9),
                     List.of(
-                            isotopeStack(Materials.uranium238, 4), isotopeStack(Materials.neptunium237),
-                            isotopeStack(Materials.plutonium238), isotopeStack(Materials.plutonium241),
-                            dustStack(Materials.molybdenum), dustStack(Materials.caesium_137)
+                            isotopeStack(Materials.plutonium242, 5), isotopeStack(Materials.curium246),
+                            isotopeStack(Materials.americium243), isotopeStack(Materials.berkelium247),
+                            dustStack(Materials.strontium_90), dustStack(Materials.promethium_147)
                     ), 0.5D
             );
 
             add(
                     fuelIngredient(List.of("depleted", "plutonium", "hep-241", type), 9),
                     List.of(
-                            isotopeStack(Materials.uranium238, 2), isotopeStack(Materials.neptunium237),
-                            isotopeStack(Materials.plutonium238), isotopeStack(Materials.plutonium241),
-                            dustStack(Materials.molybdenum), dustStack(Materials.caesium_137)
+                            isotopeStack(Materials.americium241), isotopeStack(Materials.americium243, 3),
+                            isotopeStack(Materials.americium242), isotopeStack(Materials.curium246, 2),
+                            dustStack(Materials.strontium_90), dustStack(Materials.promethium_147)
                     ), 1.5D
             );
 
